@@ -34,10 +34,6 @@ int main()
     }
     printf("la note la plus haute est %.2f\n", max);
 
-    min= note[0];
-
-
-
     min = note[0];
     for(i = 1; i < 5; i++) {
         if(note[i] < min) {
