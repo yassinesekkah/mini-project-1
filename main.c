@@ -39,7 +39,8 @@ int main()
         if(note[i] < min) {
         min = note[i];
         }
-    }
+    }    printf("la note la plus basse est %.2f\n", min);
+
 
 
     if (moyenne>=90) printf("Excellent");
