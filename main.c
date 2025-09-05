@@ -16,7 +16,7 @@ int main()
 
     for(i =0; i<totnotes; i++)
     {
-        printf("Entree la note %d :\n", i+1);
+        printf("Entrer la note %d :\n", i+1);
         scanf("%f", &note[i]);
         somme = somme + note[i];
     }
@@ -47,7 +47,7 @@ int main()
     else if (moyenne<60) printf ("Echec\n");
 
 
-    if (somme>= 50) {
+    if (moyenne>= 50) {
         printf("reussi\n");
     }
     else{
